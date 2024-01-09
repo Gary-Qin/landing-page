@@ -58,7 +58,7 @@ body {
 .hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 0;
+    margin: 10px 0 20px 0;
 }
 
 .hero-button {
@@ -81,6 +81,51 @@ body {
     align-items: center;
     background-color: gray;
     color: #e5e7eb;
+}
+
+.info-block {
+    background-color: #f9faf8;
+    margin: 0;
+    padding: 20px 200px 100px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-single {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+.info-subtext {
+    text-align: center;
+    color: gray;
+    margin: 10px 0;
 }
 
 a {
